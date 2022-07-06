@@ -1,0 +1,225 @@
+body{
+    /* Google Font */
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* Google Font */
+    margin: 0%;
+    
+}
+
+/* Header Section Start */
+.hero-image {
+    background-image: url("images/header.png");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+  
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btn{
+    background: rgba(255, 89, 89, 1);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    margin: 20px;
+    
+}
+
+/* Header Section End */
+
+
+
+/* Main Section Start*/
+main{
+    margin-top: 100px;
+}
+/*First Section Start*/
+#first-section{
+    background-repeat: no-repeat;
+    margin: 20px 20px 20px 20px;
+}
+.box-one{
+    text-align: center;
+}
+.para{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+/*First Section End*/
+/*Second Section Start*/
+
+#second-section{
+    text-align: center;
+}
+
+box-two{
+    text-align: center;
+}
+
+.btn-1to5{
+    border: none;
+    color: gray;
+    border-radius: 5px;
+    padding: 40px 20px;
+    font-size: 30px; 
+  
+}
+
+.glow-up{
+    background: #FFEEEE;
+    border-radius: 5px;
+    padding: 40px 20px;
+    color: rgb(255, 89, 89);
+    font-size: 30px; 
+    border: 2px solid rgb(255, 89, 89);
+}
+
+.box-three{
+    margin-top: 50px;
+    width: 100%;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 89, 89);
+    padding: 10px 200px;
+    margin-bottom: 5px;
+}
+/*Second Section End*/
+/*Third Section Start*/
+#third-section{
+    background-repeat: no-repeat;
+    margin: 50px 100px 50px 100px;
+    display: flex;
+}
+
+
+
+.card-one{
+    margin: 0px 40px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(135, 177, 182);
+}
+.card-two{
+    margin: 0px 40px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(211, 156, 156);
+}
+.card-three{
+    margin: 0px 40px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(153, 223, 168);
+}
+
+
+
+/*Third Section End*/
+/*Fourth Section Start*/
+#fourth-section{   
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 20px 100px 20px 100px;
+}
+
+.half-width{
+    width: 50%;
+    margin: 40px 100px 20px 40px;
+}
+
+.half-width img{
+    border: 0px solid rgb(3, 3, 3);
+    border-radius: 4px;
+    width: 500px;
+    height: 400px;
+}
+/*Fourth Section End*/
+/*Fifth Section Start*/
+#fifth-section{
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 20px 100px 20px 100px;
+}
+/*Fifth Section End*/
+/*Sixth Section Start*/
+
+#seventh-section{
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 20px 100px 100px 400px;
+
+}
+
+.last-form{
+    display: flex;
+    background-color: rgb(255, 244, 214);
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.last-form input[type="email"],
+.last-form input[type="submit"]{
+    padding: 12px 40px;
+    margin: 8px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+
+.last-form input[type="email"]{
+    color: rgb(170, 159, 159);
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 50px;
+}
+
+.last-form input[type="submit"]{
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 87, 87);
+    border-radius: 0px 5px 5px 0px;
+    margin-right: 50px;
+}
+
+
+/* Main Section End*/
+
+
+
+
+
+
+
+
+/*Font Awesome*/
+
+.footer-section{
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+
+}
+
+#footer-h{
+    color: #ff5959;
+    padding-left: 70px;
+    font-weight: 400;
+    font-size: 36px;
+    
+}
