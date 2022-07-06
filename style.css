@@ -4,7 +4,7 @@ body{
     font-family: 'Kanit', sans-serif;
     font-family: 'Poppins', sans-serif;
     /* Google Font */
-    margin: 0%;
+    margin: 0px;
     
 }
 
@@ -207,7 +207,6 @@ input{
 /*Font Awesome*/
 
 .footer-section{
-    height: 20vh;
     color: white;
     display: flex;
     justify-content: center;
